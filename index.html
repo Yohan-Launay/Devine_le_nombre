@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>🤷‍♂️ Devine le nombre 🤷‍♂️</h1>
+    <section class="container">
+        <div class="d-flex">
+            <p>Valeur minimum:</p>
+            <input id="valeurMin" type="number">
+            <p>Valeur maximum:</p>
+            <input id="valeurMax" type="number">
+            <button onclick="generate()">Généré un nombre aléatoire</button>
+        </div>
+        <div class="d-flex">
+            <p id="phrase"></p>
+        </div>
+        <div class="d-flex d-direction">
+            <div>
+                <p>Nombre de tentative :</p>
+                <input id="tentative" type="number" value="10" disabled>
+            </div>
+            <div>
+                <p>Essaye:</p>
+                <input id="propositeValeur" type="number">
+                
+            </div>
+            <div>
+                <button onclick="check()">Lance moi !</button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
